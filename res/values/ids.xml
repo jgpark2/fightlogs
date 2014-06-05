@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="background_frame" type="id"/><item name="username_input" type="id"/><item name="password_input" type="id"/><item name="user_info_email" type="id"/><item name="ad_image_view" type="id"/></resources>

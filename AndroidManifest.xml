@@ -4,13 +4,16 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="19"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="MyActivity"
-                  android:label="@string/app_name">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:label="FightLogs" android:icon="@drawable/ic_launcher">
+        <activity android:name=".login_activity"
+                  android:label="FightLogs">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".new_user_activity"/>
+
     </application>
 </manifest>
